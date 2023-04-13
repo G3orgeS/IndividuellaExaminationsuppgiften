@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
-// const admin = require('../schemas/adminSchema');
 require('dotenv').config();
+// const admin = require('../schemas/adminSchema');
 const secretKey = process.env.SECRET_KEY;
 
 exports.generateToken = (user) => {
@@ -19,7 +19,12 @@ exports.verifyToken = (req, res, next) => {
     }
 }
 
-// exports.checkAdmin = async (req, res, next) => {
+
+
+
+
+
+// exports.logedIn = async (req, res, next) => {
 
 //     const admin = await Admin.findOne({ adminId: req.userId })
 

@@ -1,8 +1,8 @@
-const mongoose = require('mongoose')
-const { Schema } = mongoose
+// const mongoose = require('mongoose')
+// const { Schema } = mongoose
 
-const adminSchema = new Schema({
-    adminId:    { type: Schema.Types.ObjectId, unique: true }
-})
+// const adminSchema = new Schema({
+//     adminId:    { type: Schema.Types.ObjectId, unique: true }
+// })
 
-module.exports = mongoose.model('admin', adminSchema)
+// module.exports = mongoose.model('admin', adminSchema)
